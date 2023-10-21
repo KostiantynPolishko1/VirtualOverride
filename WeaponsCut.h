@@ -16,7 +16,7 @@ public:
 		gradeAttack{gradeAttack}, gradeDefence{gradeDefence}, weightSword{weightSword} {}
 
 public:
-	virtual WeaponsCut initWeaponsCut() {
+	virtual WeaponsCut getWeaponsCut() {
 		return *this;
 	}
 }

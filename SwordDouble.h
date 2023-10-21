@@ -11,7 +11,7 @@ class SwordDouble :
 public:
     SwordDouble() : WeaponsCut(6, 6, 10.0f) {};
 
-    WeaponsCut initWeaponsCut() override final{
+    WeaponsCut getWeaponsCut() override final{
         return *this;
     }
 }
