@@ -31,26 +31,12 @@
     <Filter Include="Header Files\Solders">
       <UniqueIdentifier>{ceaf1916-19b3-46d7-a90b-770a80b41e95}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\OutFitWarrior">
-      <UniqueIdentifier>{424c9842-a382-4769-939a-46e7dd93c5b1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Material">
-      <UniqueIdentifier>{889dc23e-2c03-4592-b8d1-f90d5df69eb6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Components">
-      <UniqueIdentifier>{8539813a-2017-4af3-a14a-f266aafa320b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Components">
-      <UniqueIdentifier>{526da36d-f9fd-4416-a8f7-7446271bcf5f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Material">
-      <UniqueIdentifier>{7c00cc4b-b2a0-4786-b32b-9b2eeb8c1e3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\OutFitWarrior">
-      <UniqueIdentifier>{b4a07dc1-c18e-4ed4-8d69-f00782b15602}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="VirtualOverride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
     <ClCompile Include="SwordDouble.cpp">
       <Filter>Source Files\Swords</Filter>
     </ClCompile>
@@ -71,9 +57,7 @@
     </ClCompile>
     <ClCompile Include="WarriorWeapons.cpp">
       <Filter>Source Files\Swords</Filter>
-    </ClCompile>
-    <ClCompile Include="VirtualOverride.cpp">
-      <Filter>Source Files</Filter>
+
     </ClCompile>
     <ClCompile Include="Blade.cpp">
       <Filter>Source Files\Components</Filter>
@@ -118,27 +102,7 @@
     </ClInclude>
     <ClInclude Include="WarriorWeapons.h">
       <Filter>Header Files\Swords</Filter>
-    </ClInclude>
-    <ClInclude Include="Blade.h">
-      <Filter>Header Files\Components</Filter>
-    </ClInclude>
-    <ClInclude Include="Handler.h">
-      <Filter>Header Files\Components</Filter>
-    </ClInclude>
-    <ClInclude Include="Stopper.h">
-      <Filter>Header Files\Components</Filter>
-    </ClInclude>
-    <ClInclude Include="Data.h">
-      <Filter>Header Files\Material</Filter>
-    </ClInclude>
-    <ClInclude Include="Material.h">
-      <Filter>Header Files\Material</Filter>
-    </ClInclude>
-    <ClInclude Include="Property.h">
-      <Filter>Header Files\Material</Filter>
-    </ClInclude>
-    <ClInclude Include="Sword.h">
-      <Filter>Header Files\OutFitWarrior</Filter>
+
     </ClInclude>
   </ItemGroup>
 </Project>

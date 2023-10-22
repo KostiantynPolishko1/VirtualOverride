@@ -36,7 +36,6 @@ public:
 
 	float getdWeightSword() const {
 		return this->dataSword.getWeight();
-	}
 
 #pragma endregion
 }

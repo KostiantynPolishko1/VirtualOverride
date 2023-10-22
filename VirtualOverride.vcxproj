@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+
     <ClCompile Include="Blade.cpp" />
     <ClCompile Include="Data.cpp" />
     <ClCompile Include="Handler.cpp" />
@@ -144,6 +145,7 @@
     <ClCompile Include="WeaponsCut.cpp" />
   </ItemGroup>
   <ItemGroup>
+
     <ClInclude Include="Blade.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="Handler.h" />
