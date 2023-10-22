@@ -9,7 +9,7 @@ class SwordNormal final:
     public WeaponsCut
 {
 public:
-    SwordNormal() : WeaponsCut(2, 2, 5.5f) {};
+    SwordNormal() : WeaponsCut(2, 2, SINGLE_HANDED) {};
 
     WeaponsCut getWeaponsCut() override final{
         return *this;

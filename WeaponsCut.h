@@ -3,18 +3,23 @@
 #ifndef WEAPONSCUT_H
 #define WEAPONSCUT_H
 
+#include "Sword.h"
+
 class WeaponsCut
 {
 protected:
 	short gradeAttack;
 	short gradeDefence;
-	float weightSword;
+	Sword dataSword;
 
 public:
-	WeaponsCut() : gradeAttack{}, gradeDefence{}, weightSword{} {}
+	WeaponsCut() : dataSword{}, gradeAttack {}, gradeDefence{} {}
 
-	WeaponsCut(short gradeAttack, short gradeDefence, float weightSword) : 
-		gradeAttack{gradeAttack}, gradeDefence{gradeDefence}, weightSword{weightSword} {}
+	WeaponsCut(short gradeAttack, short gradeDefence, short kindSword) :
+		gradeAttack{ gradeAttack }, gradeDefence{ gradeDefence } 
+	{
+		this->dataSword = Sword(kindSword);
+	}
 
 #pragma region methods
 	virtual WeaponsCut getWeaponsCut() {
@@ -29,8 +34,8 @@ public:
 		return this->gradeDefence;
 	}
 
-	float getWeightSword() const {
-		return this->weightSword;
+	float getdWeightSword() const {
+		return this->dataSword.getWeight();
 	}
 
 #pragma endregion
