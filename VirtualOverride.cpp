@@ -10,12 +10,12 @@ enum Sword {
 ;
 int main() {
 
-	Warrior warrior;
+	Warrior warrior0;
 	WarriorWeapons warriorSword;
 
-	warrior.getWeaponsCut(&warriorSword[Normal]);
+	warrior0.getWeaponsCut(&warriorSword[Normal]);
 	std::cout << "\nWeapons(SwordNormal):"
-		<< "\n\tGradeAttack = " << warrior.geAttacktWarrior() << "\n";
+		<< "\n\tGradeAttack = " << warrior0.getAttacktWarrior() << "\n";
 
 	return 0;
 }
