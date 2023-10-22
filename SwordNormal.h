@@ -11,7 +11,7 @@ class SwordNormal final:
 public:
     SwordNormal() : WeaponsCut(2, 2, 5.5f) {};
 
-    WeaponsCut initWeaponsCut() override final{
+    WeaponsCut getWeaponsCut() override final{
         return *this;
     }
 }

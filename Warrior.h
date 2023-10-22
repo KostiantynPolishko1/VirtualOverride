@@ -3,9 +3,7 @@
 #ifndef WARRIOR_H
 #define WARRIOR_H
 
-#include "SwordNormal.h"
-#include "SwordOneHalf.h"
-#include "SwordDouble.h"
+#include "WarriorWeapons.h"
 
 class Warrior
 {
@@ -18,25 +16,25 @@ private:
 public:
 	Warrior() : attackWarrior{}, defenceWarrior{}, selfWeightWarrior{}, weaponsCut{} {};
 
-	void initWeaponsCut(WeaponsCut* weaponsCut) 
+	void getWeaponsCut(WeaponsCut* weaponsCut) 
 	{
 		*this = Warrior();
-		this->weaponsCut = weaponsCut->initWeaponsCut();
+		this->weaponsCut = weaponsCut->getWeaponsCut();
 
-		this->attackWarrior = this->weaponsCut.gradeAttack;
-		this->defenceWarrior = this->weaponsCut.gradeDefence;
-		this->selfWeightWarrior = this->weaponsCut.weightSword;
+		this->attackWarrior = this->weaponsCut.getAttacktSword();
+		this->defenceWarrior = this->weaponsCut.getDefenceSword();
+		this->selfWeightWarrior = this->weaponsCut.getWeightSword();
 	}
 
-	short geAttacktWarrior() const {
+	short getAttacktWarrior() const {
 		return this->attackWarrior;
 	}
 	
-	short geDefenceWarrior() const {
+	short getDefenceWarrior() const {
 		return this->defenceWarrior;
 	}
 	
-	short geWeightWarrior() const {
+	float getWeightWarrior() const {
 		return this->selfWeightWarrior;
 	}
 }

@@ -11,7 +11,7 @@ class SwordOneHalf final:
 public:
     SwordOneHalf() : WeaponsCut(4, 4, 7.5f) {};
 
-    WeaponsCut initWeaponsCut() override final{
+    WeaponsCut getWeaponsCut() override final{
         return *this;
     }
 }

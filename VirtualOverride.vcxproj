@@ -127,18 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OutFit.cpp" />
     <ClCompile Include="SwordDouble.cpp" />
     <ClCompile Include="SwordNormal.cpp" />
     <ClCompile Include="SwordOneHalf.cpp" />
     <ClCompile Include="VirtualOverride.cpp" />
     <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="WarriorWeapons.cpp" />
     <ClCompile Include="WeaponsCut.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="OutFit.h" />
     <ClInclude Include="SwordDouble.h" />
     <ClInclude Include="SwordNormal.h" />
     <ClInclude Include="SwordOneHalf.h" />
     <ClInclude Include="Warrior.h" />
+    <ClInclude Include="WarriorWeapons.h" />
     <ClInclude Include="WeaponsCut.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
