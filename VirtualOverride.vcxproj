@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+
+    <ClCompile Include="Blade.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Handler.cpp" />
+    <ClCompile Include="Material.cpp" />
     <ClCompile Include="OutFit.cpp" />
+    <ClCompile Include="Property.cpp" />
+    <ClCompile Include="Stopper.cpp" />
+    <ClCompile Include="Sword.cpp" />
     <ClCompile Include="SwordDouble.cpp" />
     <ClCompile Include="SwordNormal.cpp" />
     <ClCompile Include="SwordOneHalf.cpp" />
@@ -137,7 +145,15 @@
     <ClCompile Include="WeaponsCut.cpp" />
   </ItemGroup>
   <ItemGroup>
+
+    <ClInclude Include="Blade.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Handler.h" />
+    <ClInclude Include="Material.h" />
     <ClInclude Include="OutFit.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="Stopper.h" />
+    <ClInclude Include="Sword.h" />
     <ClInclude Include="SwordDouble.h" />
     <ClInclude Include="SwordNormal.h" />
     <ClInclude Include="SwordOneHalf.h" />

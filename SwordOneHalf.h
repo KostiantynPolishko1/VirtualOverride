@@ -9,7 +9,7 @@ class SwordOneHalf final:
     public WeaponsCut
 {
 public:
-    SwordOneHalf() : WeaponsCut(4, 4, 7.5f) {};
+    SwordOneHalf() : WeaponsCut(4, 4, TWO_and_HALF) {};
 
     WeaponsCut getWeaponsCut() override final{
         return *this;

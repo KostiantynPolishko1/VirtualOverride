@@ -2,7 +2,7 @@
 #include "Warrior.h"
 #include "WarriorWeapons.h"
 
-enum Sword {
+enum SwordKind {
 	Normal,
 	OneHalf,
 	Double
@@ -15,7 +15,7 @@ int main() {
 
 	warrior0.getWeaponsCut(&warriorSword[Normal]);
 	std::cout << "\nWeapons(SwordNormal):"
-		<< "\n\tGradeAttack = " << warrior0.getAttacktWarrior() << "\n";
+		<< "\n\tWeightSword= " << warrior0.getWeightWarrior() << "\n";
 
 	return 0;
 }

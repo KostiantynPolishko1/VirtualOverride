@@ -20,10 +20,10 @@ public:
 	{
 		*this = Warrior();
 		this->weaponsCut = weaponsCut->getWeaponsCut();
-
-		this->attackWarrior = this->weaponsCut.getAttacktSword();
-		this->defenceWarrior = this->weaponsCut.getDefenceSword();
-		this->selfWeightWarrior = this->weaponsCut.getWeightSword();
+    
+		this->attackWarrior += this->weaponsCut.getAttacktSword();
+		this->defenceWarrior += this->weaponsCut.getDefenceSword();
+		this->selfWeightWarrior += this->weaponsCut.getdWeightSword();
 	}
 
 	short getAttacktWarrior() const {
